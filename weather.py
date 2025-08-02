@@ -5,7 +5,7 @@ from io import BytesIO
 
 def get_weather():
     city = city_entry.get().strip()
-    api_key = "4cab2115c811be567a446acc1c57652d"
+    api_key = "your_real_key_here"
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
 
     try:
